@@ -1,0 +1,20 @@
+# Configurações do PyCharm
+.idea/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Pastas de backup
+/shelf/
+/workspace.xml
