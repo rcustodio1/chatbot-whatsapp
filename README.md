@@ -22,12 +22,11 @@ Este projeto é um chatbot para WhatsApp desenvolvido em Python utilizando o fra
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
+
 Instale as dependências:
 
-bash
-Copiar
-Editar
 pip install -r requirements.txt
+
 Configure as variáveis de ambiente (exemplo):
 
 TWILIO_ACCOUNT_SID
@@ -38,36 +37,31 @@ TWILIO_PHONE_NUMBER
 
 Execute o servidor Flask:
 
-bash
-Copiar
-Editar
 python app.py
+
 Exponha o servidor local usando ngrok (ou equivalente):
 
-bash
-Copiar
-Editar
 ngrok http 5000
+
 Configure no Twilio a URL pública gerada pelo ngrok apontando para o endpoint do webhook, por exemplo:
 
-bash
-Copiar
-Editar
 https://abc123.ngrok.io/webhook
+
 Estrutura do projeto
-bash
-Copiar
-Editar
+
 ├── app.py               # Arquivo principal do Flask
 ├── requirements.txt     # Dependências do projeto
 ├── README.md            # Este arquivo
 └── .env                 # Variáveis de ambiente (não versionar)
+
 Como usar
+
 Envie uma mensagem para o número WhatsApp configurado no Twilio.
 
 O chatbot responderá automaticamente conforme programado no webhook Flask.
 
 Melhorias futuras
+
 Adicionar processamento de linguagem natural (NLP)
 
 Salvar histórico de conversas
