@@ -19,7 +19,6 @@ Este projeto é um chatbot para WhatsApp desenvolvido em Python utilizando o fra
 
 1. Clone o repositório:
 
-```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
